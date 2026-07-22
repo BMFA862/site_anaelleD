@@ -1,0 +1,26 @@
+input::placeholder {
+    color: #888;        /* couleur du texte d'indication */
+    font-style: italic; /* style du texte d'indication */
+}
+
+/* Bordure bleue personnalisée pour les champs de réponse (sans l'état invalid) */
+#endtitre1:not(.is-invalid),
+#endtitre2:not(.is-invalid) {
+    border: 2px solid var(--bleu);
+    border-radius: 4px;
+    padding: .375rem .75rem;
+}
+
+/* Focus: halo en bleu (utilise la variable --bleu), sauf quand le champ est invalid */
+#endtitre1:not(.is-invalid):focus,
+#endtitre2:not(.is-invalid):focus {
+    outline: none;
+    box-shadow: 0 0 0 0.25rem rgba(9,34,116,0.15);
+    border-color: var(--bleu);
+}
+
+/* Apparence d'erreur : bordure rouge et halo léger rouge */
+.form-control.is-invalid {
+    border: 2px solid #dc3545;
+    box-shadow: 0 0 0 0.25rem rgba(220,53,69,0.12);
+}

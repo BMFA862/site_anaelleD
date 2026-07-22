@@ -1,0 +1,17 @@
+:root {
+    --bleu: #092274;
+    --pink: #ff9a8b;
+    --light-pink: #f5f7fa;
+    --light-purple: #c3cfe2;
+}
+
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    min-height: 100vh;
+    background: linear-gradient(135deg, var(--light-pink), var(--light-purple)) !important;
+} 
+
+.text-bleu {
+    color: var(--bleu) !important;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
