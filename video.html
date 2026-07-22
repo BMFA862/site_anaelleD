@@ -5,11 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/x-icon" href="/favicon.ico">
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
     <link rel="stylesheet" href="style.css">
     <title>Anaelle</title>
-</head>
 </head>
 
 <body>
@@ -17,18 +18,23 @@
         <div class="text-center mb-4">
             <h1 class="text-center mb-4 text-bleu">Petite vidéo finale pour cette superbe journée</h1>
         </div>
+
         <div class="text-center mb-4">
-            <div style="max-width: 100%; margin: 0 auto;">
-                <iframe src="https://drive.google.com/file/d/1imguiJ4j83LyS1uZycCEqqsUbivcXbNZ/preview" allow="autoplay" 
-                frameborder="0" style="width: 100%; max-width: 800px; height: 450px;"></iframe>
+            <div id="video-container">
+                <iframe
+                    src="https://player.mediadelivery.net/embed/711387/5a84741c-e583-41cf-8fd9-f6fae7b1bb19?autoplay=false&loop=false&muted=false&preload=true&responsive=true"
+                    loading="lazy" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;"
+                    allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture; fullscreen;"
+                    allowfullscreen="true">
+                </iframe>
             </div>
         </div>
-    </div>
-    <footer class="mt-5 py-3 bg-light border-top fixed-bottom">
-        <div class="container text-center">
-            <p class="mb-0 text-muted">© 2026 no - Réalisé par Benjamin</p>
-        </div>
-    </footer>
+
+        <footer class="mt-5 py-3 bg-light border-top">
+            <div class="container text-center">
+                <p class="mb-0 text-muted">© 2026 no - Réalisé par Benjamin</p>
+            </div>
+        </footer>
 </body>
 
 </html>
