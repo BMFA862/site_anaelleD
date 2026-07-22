@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="auth.css">
     <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="stylesheet" href="auth.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Anaelle</title>
 </head>
@@ -16,12 +16,17 @@
         <h1 class="text-center mb-4 text-bleu">Fourth ....</h1>
         <div id="question" class="text-center mb-4">
             <label for="endtitre1" class="form-label"></label>
-            <input type="text" placeholder="réponse ..." id="endtitre1" name="endtitre1" class="form-control d-inline-block w-auto">
+            <input type="text" placeholder="réponse ..." id="endtitre1" name="endtitre1" class="form-control" style="max-width: 100%; margin: 0 auto;">
         </div>
         <div class="text-center mb-4">
             <button id="login1" class="btn btn-primary" onclick="login1()">Valider</button>
         </div>
     </div>
+        <footer class="mt-5 py-3 bg-light border-top fixed-bottom">
+        <div class="container text-center">
+            <p class="mb-0 text-muted">© 2026 no - Réalisé par Benjamin</p>
+        </div>
+    </footer>
 </body>
 <script src="auth.js"></script>
 </html>
