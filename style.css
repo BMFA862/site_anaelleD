@@ -6,7 +6,7 @@
 }
 
 body {
-    font-family: 'Comic Sans MS', cursive, sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
     background: linear-gradient(135deg, var(--light-pink), var(--light-purple)) !important;
     min-height: 100vh;
 }
@@ -24,6 +24,26 @@ iframe {
     overflow: hidden;
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
     aspect-ratio: 16/9;
+}
+
+.btn-download {
+    display: inline-block;
+    background-color: var(--pink);
+    color: var(--bleu);
+    border-radius: 10px;
+    padding: 12px 24px;
+    font-size: 1.2rem;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    animation: pulse 1s infinite;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+
+.btn-download:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px rgba(255, 154, 139, 0.7);
 }
 
 .text-bleu {
