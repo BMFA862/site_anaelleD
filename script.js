@@ -31,18 +31,6 @@ document.addEventListener('DOMContentLoaded', function() {
         if (isLandscape && isMobile) {
             // Masquer l'overlay et lancer fullscreen
             overlay.classList.remove('show');
-            
-            // Tenter de lancer le fullscreen sur l'iframe
-            if (videoContainer) {
-                const iframe = videoContainer.querySelector('iframe');
-                if (iframe) {
-                    setTimeout(() => {
-                        iframe.requestFullscreen().catch(err => {
-                            console.log('Fullscreen request denied:', err);
-                        });
-                    }, 500);
-                }
-            }
         } else {
             // En portrait, afficher l'overlay
             if (isMobile) {
