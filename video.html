@@ -22,32 +22,34 @@
         </div>
     </div>
 
-    <div class="container py-5">
-        <div class="text-center mb-4">
-            <h1 class="text-center mb-4 text-bleu">Petite vidéo finale pour cette superbe journée</h1>
-        </div>
-
-        <div class="text-center mb-4">
-            <div id="video-container">
-                <iframe
-                    src="https://player.mediadelivery.net/embed/711387/5a84741c-e583-41cf-8fd9-f6fae7b1bb19?autoplay=false&loop=false&muted=false&preload=true&responsive=true"
-                    loading="lazy" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;"
-                    allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture; fullscreen;"
-                    allowfullscreen="true">
-                </iframe>
+    <div class="d-flex flex-column min-vh-100">
+        <div class="container py-5 flex-grow-1 d-flex align-items-center justify-content-center">
+            <div class="w-100">
+                <h1 class="text-center text-bleu">Petite vidéo finale pour cette superbe journée</h1>
+                <div class="text-center">
+                    <div id="video-container" class="mt-5">
+                        <iframe
+                            src="https://player.mediadelivery.net/embed/711387/5a84741c-e583-41cf-8fd9-f6fae7b1bb19?autoplay=false&loop=false&muted=false&preload=true&responsive=true"
+                            loading="lazy"
+                            style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;"
+                            allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture; fullscreen;"
+                            allowfullscreen="true">
+                        </iframe>
+                    </div>
+                </div>
+                <div class="text-center mt-5">
+                    <a href="https://bmfa862.github.io/site_anaelleD/fin_anniv_anaelle_2026compress.mp4"
+                        download="fin_anniv_anaelle_2026compress.mp4" class="btn btn-download">Télécharger la vidéo</a>
+                </div>
             </div>
         </div>
-
-        <div class="text-center mt-4">
-            <a href="https://bmfa862.github.io/site_anaelleD/fin_anniv_anaelle_2026compress.mp4" download="fin_anniv_anaelle_2026compress.mp4" class="btn btn-download">Télécharger la vidéo</a>
-        </div>
-
-        <footer class="mt-5 py-3 bg-light border-top">
-            <div class="container text-center">
-                <p class="mb-0 text-muted">© 2026 no - Réalisé par Benjamin</p>
-            </div>
-        </footer>
     </div>
+    <footer class="mt-auto py-3 bg-light border-top w-100">
+        <div class="container text-center">
+            <p class="mb-0 text-muted">© 2026 no - Réalisé par Benjamin</p>
+        </div>
+    </footer>
 </body>
 <script src="script.js"></script>
+
 </html>

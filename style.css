@@ -8,7 +8,6 @@
 body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
     background: linear-gradient(135deg, var(--light-pink), var(--light-purple)) !important;
-    min-height: 100vh;
 }
 
 iframe {

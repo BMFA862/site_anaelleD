@@ -11,22 +11,26 @@
     <title>Anaelle</title>
 </head>
 <body>
-    <div class="container py-5">
-        <h1 class="text-center mb-4 text-bleu">Quel est la fin du titre de ce livre ?</h1>
-        <h1 class="text-center mb-4 text-bleu">Fourth ....</h1>
-        <div id="question" class="text-center mb-4">
-            <label for="endtitre1" class="form-label"></label>
-            <input type="text" placeholder="réponse ..." id="endtitre1" name="endtitre1" class="form-control" style="max-width: 100%; margin: 0 auto;">
+    <div class="d-flex flex-column min-vh-100">
+        <div class="container py-5 flex-grow-1 d-flex align-items-center justify-content-center">
+            <div class="w-100">
+                <h1 class="text-center mb-4 text-bleu">Quel est la fin du titre de ce livre ?</h1>
+                <h1 class="text-center mb-4 text-bleu">Fourth ....</h1>
+                <div id="question" class="text-center mb-4">
+                    <label for="endtitre1" class="form-label"></label>
+                    <input type="text" placeholder="réponse ..." id="endtitre1" name="endtitre1" class="form-control" style="max-width: 100%; margin: 0 auto;">
+                </div>
+                <div class="text-center mb-4">
+                    <button id="login1" class="btn btn-primary" onclick="login1()">Valider</button>
+                </div>
+            </div>
         </div>
-        <div class="text-center mb-4">
-            <button id="login1" class="btn btn-primary" onclick="login1()">Valider</button>
-        </div>
+        <footer class="mt-auto py-3 bg-light border-top w-100">
+            <div class="container text-center">
+                <p class="mb-0 text-muted">© 2026 no - Réalisé par Benjamin</p>
+            </div>
+        </footer>
     </div>
-    <footer class="mt-5 py-3 bg-light border-top">
-        <div class="container text-center">
-            <p class="mb-0 text-muted">© 2026 no - Réalisé par Benjamin</p>
-        </div>
-    </footer>
 </body>
 <script src="auth.js"></script>
 </html>

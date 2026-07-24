@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,19 +13,24 @@
     <!-- CSS personnalisé -->
     <link rel="stylesheet" href="memory.css">
 </head>
+
 <body class="bg-light">
-    <div class="container py-5">
-        <h1 class="text-center mb-4 text-pink">Trouve les paires pour débloquer les étoiles,</h1>
-        <h1 class="text-center mb-5 text-pink">puis clique sur les étoiles pour dévoiler le mot caché !</h1>
-        <div id="memory-grid" class="mx-auto mb-4"></div>
-        <div id="stars-container" class="d-flex flex-wrap justify-content-center gap-2 mb-4"></div>
-        <div id="prenom-container" class="d-flex justify-content-center gap-2 mb-4 fs-2"></div>
-        <div id="message" class="text-center fs-1 text-pink fw-bold d-none">
-            <h3>Joyeux Anniversaire !!!</h3>
-            <h3>regarde sous ta boite aux lettres 😉</h3>
+    <div class="d-flex flex-column min-vh-100">
+        <div class="container py-5 flex-grow-1 d-flex align-items-center justify-content-center">
+            <div class="w-100">
+                <h1 class="text-center mb-4 text-pink">Trouve les paires pour débloquer les étoiles,</h1>
+                <h1 class="text-center mb-5 text-pink">puis clique sur les étoiles pour dévoiler le mot caché !</h1>
+                <div id="memory-grid" class="mx-auto mb-4"></div>
+                <div id="stars-container" class="d-flex flex-wrap justify-content-center gap-2 mb-4"></div>
+                <div id="prenom-container" class="d-flex justify-content-center gap-2 mb-4 fs-2"></div>
+                <div id="message" class="text-center fs-1 text-pink fw-bold d-none">
+                    <h3>Joyeux Anniversaire !!!</h3>
+                    <h3>regarde sous ta boite aux lettres 😉</h3>
+                </div>
+            </div>
         </div>
     </div>
-        <footer class="mt-5 py-3 bg-light border-top">
+    <footer class="mt-5 py-3 bg-light border-top">
         <div class="container text-center">
             <p class="mb-0 text-muted">© 2026 no - Réalisé par Benjamin</p>
         </div>
@@ -34,4 +40,5 @@
     <!-- JS personnalisé -->
     <script src="memory.js"></script>
 </body>
+
 </html>
